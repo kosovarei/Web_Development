@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Analyse av Kosovare Isufi sin eksamens innlevering">
+<!--instagram og facebook meta-->
+        <meta property="og:title" content="Analyse">
+        <meta property="og:url" content="https://itstud.hiof.no/~kosovari/deleksamen_2/analysis.html">
+        <meta property="og:description" content="Analyse av kosovare sin nettside">
+        <meta property="og:image" content="https://learn.g2.com/hubfs/Imported%20sitepage%20images/1ZB5giUShe0gw9a6L69qAgsd7wKTQ60ZRoJC5Xq3BIXS517sL6i6mnkAN9khqnaIGzE6FASAusRr7w=w1439-h786.png">
+
+<!--twitter card-->
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Analyse">
+        <meta name="twitter:url" content="https://itstud.hiof.no/~kosovari/deleksamen_2/analysis.html">
+        <meta name="twitter:description" content="Analyse av kosovare sin nettside">
+        <meta name="twitter:image" content="https://learn.g2.com/hubfs/Imported%20sitepage%20images/1ZB5giUShe0gw9a6L69qAgsd7wKTQ60ZRoJC5Xq3BIXS517sL6i6mnkAN9khqnaIGzE6FASAusRr7w=w1439-h786.png">
+
+
+        <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+        <link href="font/font/css/fontawesome.css" rel="stylesheet">
+        <link href="font/font/css/brands.css" rel="stylesheet">
+        <link href="font/font/css/solid.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Analyse</title>
+        <link rel="icon" type="image/x-icon" href="bilder/pagelines.svg">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Webutvikling :)</h1>
+                <nav>
+                    <a href="forside.html" aria-label="logo som sender til forsiden"><i class="fa-regular fa-heart" id="logo"></i></a>
+                    <a href="#" aria-label="hamburger-meny" id="meny-icon" onclick="hamMenu()"><i class="fa-regular fa-bars"></i></a> 
+                    <ul id="nav-menu" style="display:block">
+                        <li><a href="forside.html" class="button">Hjem</a></li>
+                        <li><a href="UU_VS_SEO.html" class="button">UU VS SEO</a></li>
+                        <li><a href="CMS.html" class="button">CMS</a></li>
+                        <li><a href="analysis.html" class="button">Analyse</a></li>
+                        <li><a href="kontakt_oss.html" class="button">Kontakt oss</a></li>
+                    </ul>
+                </nav>
+             </header>
+             <main>
+                <article id="artikkel">
+                    <h2>Analyse</h2>
+                    <img src="bilder/analysis.png" alt="mennesker som analyserer en nettside" class="main-photos">
+                    <h3>Webaim wave</h3>
+                        <section id=analyse1>
+                            <section>
+                            <p>Det ble først gjort en analyse av nettsiden ved hjelp av webaim wave. Den
+                            undersøker universell utforming, og det ble gjort noen forbedringer for å optimalisere den 
+                            universelle utformingen. 
+                            </p>
+                            <p>Det første som ble fiksa var fargekontrastene. Det var for lite fargekontrast mellom kildene
+                                og bakgrunnsfargen. Den vanlige blå/lilla fargen som dukker opp når man legger inn Kilder
+                                passa ikke bra med den brune bakgrunnen. Fargen ble da skifta til svart på kildene.
+                            </p>
+                            <p>før</p>
+                            <img src="bilder/kilder.png" alt="blå kilder foran brun bakgrunn" class="analysis-photos">
+                            <p>etter</p>
+                            <img src="bilder/kildeer.png" alt="svarte klder foran brun bakgrunn" class="analysis-photos">
+                            <p>Etter det ble andre error sjekka. Nettsiden trengte flere beskrivelser. Jeg lo til aria-label
+                                på alle bildene, kildene og ikonene. Det gjør det enklere for opplesende hjelpemidler å få
+                                med seg all viktig informasjon på nettsiden, og forstå hvor hver link fører. En alert var
+                                også å passe på at disse beskrivelsene var unike for hvert element</p>
+                            <p>Et eksempel:</p>
+                            <img src="bilder/aria.png" alt="aria-label lagt til et bilde" class="analysis-photos">
+                            <p>Det var også et problem med textarea som ikke var koblet til en label, på grunn av
+                                en syntax feil. Som ble fikset på.
+                            </p>
+                            <p>Det var også noen alerts å fikse på. Det var noen headings som ble hoppet over, som 
+                                ikke passet med rekkefølgen. 
+                            </p>
+                            <p>Etter at disse feilene ble fikset ble nettsiden mye mer tilpasset, slik at
+                                flest mulig folk kan bruke nettsiden. UU ble opptimalisert. Nesten alle alerts og
+                                errros ble fiksa på. Det var en alert som ikke ble fiksa på, det var redundant link. 
+                                Denne alerten kom opp siden logoet og hjem på menypunktet hadde samme link
+                                og stod nærme hverandre. Å endre på den hadde ikke passet med oppgaven.
+                            </p>
+                        </section>
+                        <section id="tabell-3">
+                            <div id="boks_1">
+                                <p>Wave</p>
+                            </div>
+                            <div id="før">
+                                <p>før</p>
+                            </div>
+                            <div id="etter">
+                                <p>etter</p>
+                            </div>
+                            <div id="boks_2">
+                                <p>For lite kontrast mellom lenkene og bakgrunnen
+                                    sidene: CMS, UU og SEO
+                                </p>
+                            </div>
+                            <div id="boks_3">
+                                <p>mørkere farge på lenkene førte til mer kontrast</p>
+                            </div>
+                            <div id="boks_4">
+                                <p>bildene har ikke unike beskrivelser,
+                                    sider: forsiden, UU og SEO, CMS og analyse   </p>
+                            </div>
+                            <div id="boks_5">
+                                <p>Bildene får mer unike beskrivelser</p>
+
+                            </div>
+                            <div id="boks_6">
+                                <p>Tomme lenker i footer, logoen og hamburgermenyen på alle sidene
+                                    i tilegg til share buttons på innholdssidene. </p>
+
+                            </div>
+                            <div id="boks_7">
+                                <p>Legger til aria-label som beskriver hva lenken er</p>
+                            </div>
+                            <div id="boks_8">
+                                <p>Skippa heading i send.html</p>
+                            </div>
+                            <div id="boks_9">
+                                <p>legger til h2 i main i send.html slik at h3
+                                i footer ikke hopper over heading</p>
+                            </div>
+                            <div id="boks_10">
+                                <p>skippa heading i kontakt_oss.html</p>
+                            </div>
+                            <div id="boks_11">
+                                <p>skifter til en lavere heading</p>
+                            </div>
+                            <div id="boks_12">
+                                <p>i Under kontakt_oss.html var ikke label og textarea kobla sammen</p>
+                            </div>
+                            <div id="boks_13">
+                                <p>skifta fra name=melding til id=melding</p>
+                            </div>
+                            <div id="boks_14">
+                                <p>Contrast error</p>
+                            </div>
+                            <div id="boks_15">
+                                <p>Alert</p>
+                            </div>
+                            <div id="boks_16">
+                                <p>Error</p>
+                            </div>
+                            <div id="boks_17">
+                                <p>Alert</p>
+                            </div>
+                            <div id="boks_18">
+                                <p>Alert</p>
+                            </div>
+                            <div id="boks_19">
+                                <p>Warning + alert</p>
+                            </div>
+
+
+                        </section>
+                    </section>
+                    <h3>Lighthouse</h3>
+                    <p>Neste analyse som ble tatt på nettisden var lighthouse. Etter wave analysen ble alt av UU 100 på alle nettsidene
+                        både på mobil og desktop. Da ble optimalisering av SEO satt på fokus. Det var ikke mye å fikse på, kanskje
+                        fordi jeg allerede hadde fikset på UU. UU og SEO påvirker ofte hverandre.</p>
+                    <p>Eksempel på en av descriptionene:</p>
+                    <img src="bilder/description.png" alt="Description til forsiden" class="analysis-photos">
+                    <p>SEO ble først analysert på desktop. scoren var lik på alle sidene, siden erroren var det samme.
+                        Sidene fant ikke noe meta description. Unik meta description ble lagt til på alle sidene, 
+                        slik at det blir enklere å søke opp hver nettside og få opp det som er innholdet på sidene.</p>
+                    <p>Etter det ble SEO på telefon sjekket. Problemet var at ikonene ikke var store nokk. Det førte
+                        til at knappene ikke ble veldig brukervennelig på telefon. Når jeg fiksa på størrelsen ble det 
+                        enklere å trykke på knappene:
+                    </p>
+                    <p>før</p>
+                    <img src="bilder/ikonetter.png" alt="små ikoner" class="analysis-photos">
+                    <p>etter</p>
+                    <img src="bilder/ikonfor.png" alt="større ikoner" class="analysis-photos">
+                    <p>Etter disse feilene ble fikset ble søkemotoroptimaliseringen forbedret på alle sidene.
+                        både på desktop og telefon ligger den nå på 100. 
+                        <section id="tabell-4">
+                            <div id="bokss_1">
+                                <p>Lighthouse</p>
+                            </div>
+                            <div id="bokss_2">
+                                <p>før</p>
+                            </div>
+                            <div id="bokss_3">
+                                <p>etter</p>
+                            </div>
+                            <div id="bokss_4">
+                                <p>Error desktop</p>
+                            </div>
+                            <div id="bokss_5">
+                                <p>Ingen av sidene hadde meta description, SEO lo på 90 på alle sidene</p>
+                            </div>
+                            <div id="bokss_6">
+                                <p>lo til meta description, SEO gikk til 100</p>
+                            </div>
+                            <div id="bokss_7">
+                                <p>warning phone</p>
+                            </div>
+                            <div id="bokss_8">
+                                <p>Størrelsen på ikonene var for små, SEO lo på 97 på alle sidene</p>
+                            </div>
+                            <div id="bokss_9">
+                                <p>størrelsene på ikonene ble byttet fra 1,5 rem til 2. SEO gikk fra 97 til 100</p>
+                            </div>
+                        </section>
+                    
+                        <p>Du kan lese mer på tilgjenlighetsærkleringen:</p>
+                        <a href="https://itstud.hiof.no/~kosovari/tilgjengelighetserkl%C3%A6ring_kosovare.pdf" class="button" aria-label="til tilgjenlighetsærkleringen">Trykk her</a>
+                    <section id="dele">
+                        <i class="fa-solid fa-share-from-square"> Share:</i>
+                        <a href="#" aria-label="del på facebook"><i class="fa-brands fa-facebook footer-icon"></i></a>
+                        <a href="#" aria-label="del på twitter"><i class="fa-brands fa-square-twitter footer-icon"></i></a>
+                        <a href="#" aria-label="del på pintrest"><i class="fa-brands fa-pinterest footer-icon"></i></a>
+
+                    </section>
+                </article>
+            </main>
+            <footer>
+                <h3>Webutvikling 2022</h3>
+                <a href="https://twitter.com/hiofnorge" aria-label="Høgskolens i østfold sin twitter bruker"><i class="fa-brands fa-square-twitter footer-icon"></i></a>
+                <a href="https://www.instagram.com/hiofnorge/" aria-label="Høgskolen i østfold sin instagram bruker"><i class="fa-brands fa-instagram footer-icon"></i></a>
+                <a href="https://www.facebook.com/hiofnorge/" aria-label="Høgskolen i østfold sin facebook bruker"><i class="fa-brands fa-facebook footer-icon"></i></a>
+            </footer>
+        </div>
+        <script src="mobil.js"></script>
+    </body>
+</html>

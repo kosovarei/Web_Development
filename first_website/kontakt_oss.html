@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Kontakt siden til Kosovare Isufi sin nettside">
+<!--instaragm og facebook -->
+        <meta property="og:title" content="kontakt oss">
+        <meta property="og:url" content="https://itstud.hiof.no/~kosovari/deleksamen_2/kontakt_oss.html">
+        <meta property="og:description" content="Kosovare sin eksamens innlevering">
+        <meta property="og:image" content="https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/contact-us-pages-sej-5f63d4f927b04-1520x800.png">
+<!--twitter cards-->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Kontakt oss">
+        <meta name="twitter:url" content="https://itstud.hiof.no/~kosovari/deleksamen_2/kontakt_oss.html">
+        <meta name="twitter:description" content="Kosovare sin eksamens innlevering">
+        <meta name="twitter:image" content="https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/contact-us-pages-sej-5f63d4f927b04-1520x800.png">
+
+
+        <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+        <link href="font/font/css/fontawesome.css" rel="stylesheet">
+        <link href="font/font/css/brands.css" rel="stylesheet">
+        <link href="font/font/css/solid.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>kontakt oss</title>
+        <link rel="icon" type="image/x-icon" href="bilder/pagelines.svg">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Webutvikling :)</h1>
+                <nav>
+                    <a href="forside.html" aria-label="logo som sender til forsiden"><i class="fa-regular fa-heart" id="logo"></i></a>
+                    <a href="#" aria-label="hamburger-meny" id="meny-icon" onclick="hamMenu()"><i class="fa-regular fa-bars"></i></a>  
+                    <ul id="nav-menu" style="display:block">
+                        <li><a href="forside.html" class="button">Hjem</a></li>
+                        <li><a href="UU_VS_SEO.html" class="button">UU VS SEO</a></li>
+                        <li><a href="CMS.html" class="button">CMS</a></li>
+                        <li><a href="analysis.html" class="button">Analyse</a></li>
+                        <li><a href="kontakt_oss.html" class="button">Kontakt oss</a></li>
+                    </ul>
+                </nav>
+             </header>
+             <main>
+                <article id="artikkel">
+                    <h2>Kontakt oss her</h2>
+                    <section id="kontaktskjema">
+                        <i class="fa-regular fa-envelope"> Epost: </i>
+                        <a href="mailto:kosovari@hiof.no"><span class="normal-font">kosovari@hiof.no</span></a>
+                        <i class="fa-regular fa-phone"> Telefon:</i>
+                        <p>93898128</p>
+                        <p>Adresse:</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.1882761207448!2d11.350614615369107!3d59.129250234091515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1669033594868!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="kart"></iframe>
+                        <h3>Kontaktskjema:</h3>
+                        <label for="name">Navn:</label>
+                        <input type="text" name="name" id="name">
+                        <label for="epost">Epost:</label>
+                        <input type="text" name="epost" id="epost">
+                        <label for="emne">Emne:</label>
+                        <input type="text" name="emne" id="emne">
+                        <label for="melding">Melding:</label>
+                        <textarea id="melding"></textarea>
+                        <a href="send.html" class="button">Send</a>
+                    </section>
+                    <section id="dele">
+                    <i class="fa-solid fa-share-from-square"> Share:</i>
+                    <a href="#" aria-label="del på facebook"><i class="fa-brands fa-facebook footer-icon"></i></a>
+                    <a href="#" aria-label="del på twitter"><i class="fa-brands fa-square-twitter footer-icon"></i></a>
+                    <a href="#" aria-label="del på pintrest"><i class="fa-brands fa-pinterest footer-icon"></i></a>
+    
+                    </section>
+
+                </article>
+            </main>
+            <footer>
+                <h3>Webutvikling 2022</h3>
+                <a href="https://twitter.com/hiofnorge" aria-label="Høgskolens i østfold sin twitter bruker"><i class="fa-brands fa-square-twitter footer-icon"></i></a>
+                <a href="https://www.instagram.com/hiofnorge/" aria-label="Høgskolen i østfold sin instagram bruker"><i class="fa-brands fa-instagram footer-icon"></i></a>
+                <a href="https://www.facebook.com/hiofnorge/" aria-label="Høgskolen i østfold sin facebook bruker"><i class="fa-brands fa-facebook footer-icon"></i></a>
+            </footer>
+        </div>
+        <script src="mobil.js"></script>
+    </body>
+</html>
